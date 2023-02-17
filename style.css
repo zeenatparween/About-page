@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.navbar img{
+    scale:0.8;
+
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.navbar ul a {
+    text-decoration: none;
+    margin-right: 3rem;
+    color: black;
+}
+/* main-section */
+
+.main-section {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.main-section h2{
+    font-size: 2rem;
+    text-align: center;
+    color:rgb(7, 165, 7);
+    
+}
+.main-section p{
+    font-size:0.8rem;
+    /* text-align: center; */
+    justify-content: left;
+    display: inline-block;
+    width:33rem;
+    margin-bottom: 2rem;
+}
+.popularity-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 2.5rem;
+   
+}
+.popularity-section button{
+    width:8.9rem;
+    height:3.3rem;
+    line-height: 1.2rem;
+    border: 0.01rem solid gray;
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.4rem gray , -0.1rem -0.1rem 0.4rem gray;
+}
+.popularity-section button span{
+    color:rgb(7, 165, 7);
+    font-size: 1rem;
+}
